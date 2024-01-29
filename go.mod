@@ -1,12 +1,12 @@
 module github.com/someone1/gcp-jwt-go/v2
 
 require (
-	cloud.google.com/go/kms v1.10.2
+	cloud.google.com/go/kms v1.15.5
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible
 	github.com/patrickmn/go-cache v2.1.0+incompatible
 	github.com/pquerna/cachecontrol v0.0.0-20180517163645-1555304b9b35
-	golang.org/x/oauth2 v0.7.0
-	google.golang.org/api v0.118.0
+	golang.org/x/oauth2 v0.13.0
+	google.golang.org/api v0.149.0
 	google.golang.org/appengine v1.6.7
 )
 
